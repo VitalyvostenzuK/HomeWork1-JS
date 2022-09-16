@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.none {
+  display: none;
+}
+
+.wrap-containar-btn {
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.head-btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 50px;
+  padding: 180px;
+}
+
+.head-btn:focus {
+  color: rgb(252, 214, 220);
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.head-cont {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(191, 221, 231);
+  padding: 15px 10px 15px 0;
+}
+
+.main-head {
+  margin-top: 10px;
+}
+
+.btn-card {
+  cursor: pointer;
+  border: none;
+  background-color: peachpuff;
+  padding: 10px;
+  border-radius: 50%;
+  color: rgb(33, 30, 15);
+}
+
+.goods-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.goods-item {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  box-shadow: 0.1em 0.4em 0.4em 5px rgb(122 122 122 / 50%);
+}
+
+.wrap-price {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  border-top: 0.5px solid grey;
+}
+
+.product-price {
+  padding-bottom: 10px;
+}
+
+.span-price {
+  padding-left: 1px;
+  font-size: 20px;
+  color: #000000;
+}
+
+.btn-add {
+  cursor: pointer;
+  padding: 8px;
+  border: none;
+  background-color: peachpuff;
+}
+
+.btn-add:hover {
+  border: none;
+  background-color: rgb(191, 221, 231);
+}
